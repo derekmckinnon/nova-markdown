@@ -1,43 +1,43 @@
 {
-    "name": "dinandmentink/nova-markdown",
-    "description": "A Laravel Nova Markdown Field.",
-    "keywords": [
-        "laravel",
-        "nova",
-        "field",
-        "markdown",
-        "image upload"
-    ],
-    "authors": [
-        {
-            "name": "Dinand Mentink",
-            "email": "dinand@dcreative.nl",
-            "homepage": "https://www.dcreative.nl",
-            "role": "Developer"
-        }
-    ],
-    "homepage": "https://github.com/dinandmentink/nova-markdown",
-    "license": "MIT",
-    "require": {
-        "php": ">=7.4",
-        "illuminate/support": "^8.13",
-        "spatie/image": "^1.4.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "DinandMentink\\Markdown\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "DinandMentink\\Markdown\\FieldServiceProvider"
-            ]
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "dinandmentink/nova-markdown",
+  "description": "A Laravel Nova Markdown Field.",
+  "keywords": [
+    "laravel",
+    "nova",
+    "field",
+    "markdown",
+    "image upload"
+  ],
+  "authors": [
+    {
+      "name": "Dinand Mentink",
+      "email": "dinand@dcreative.nl",
+      "homepage": "https://www.dcreative.nl",
+      "role": "Developer"
+    }
+  ],
+  "homepage": "https://github.com/dinandmentink/nova-markdown",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4",
+    "illuminate/support": "^6.0|^7.0|^8.13",
+    "spatie/image": "^1.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DinandMentink\\Markdown\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "DinandMentink\\Markdown\\FieldServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
